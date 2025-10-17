@@ -18,7 +18,7 @@ def find_max_plus_or_multiply(array):
         if num == 0 or num == 1:
             final_num += num
         else:
-            if final_num == 0:
+            if final_num == 0 or final_num == 1:
                 final_num += num
             else:
                 final_num *= num
